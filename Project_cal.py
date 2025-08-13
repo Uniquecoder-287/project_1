@@ -24,3 +24,17 @@ print('3. Multiply')
 print('4. Divide')
 print('5. Average')
 
+choice= input("Enter choice: ")
+
+if choice == '1':
+    print("Sum of two elements is",sum(a,b))
+elif choice== '2':
+    print("Sub of the two elements is ",sub(a,b))
+elif choice == '3':
+    print("Multi of the two numers are ",mult(a,b))
+elif choice == '4':
+    print("div of the two numers are ",div(a,b))
+elif choice == '5':
+    print("avg of the two numers are ",avg(a,b))
+else:
+    print("Invalid choice")
