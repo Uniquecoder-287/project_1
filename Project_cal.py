@@ -1,3 +1,4 @@
+# Functions 
 def sum(a,b):
     return a + b
 
@@ -13,10 +14,11 @@ def div(a, b):
 def avg(a, b):
     return (a + b) / 2
 
-
+# Taking inputs from user 
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 
+# Taking operation input from user 
 print('select operation')
 print('1. Add')
 print('2. Subtract')
@@ -26,6 +28,7 @@ print('5. Average')
 
 choice= input("Enter choice: ")
 
+# Performing operation based on user choice
 if choice == '1':
     print("Sum of two elements is",sum(a,b))
 elif choice== '2':
