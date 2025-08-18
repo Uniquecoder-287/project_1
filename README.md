@@ -1,2 +1,2 @@
 # project_1
-Basic calcy
+Basic calcy using python
